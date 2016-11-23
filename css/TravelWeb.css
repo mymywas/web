@@ -1053,3 +1053,15 @@ a:focus, a:hover, a:active {
     background: rgba(0,0,0,0.5);
     padding: 50px 20px 25px 20px;
 }
+.dayPostBlog{
+	font-size: 70%;
+}
+.cd-timeline-content{
+	    background-color: rgba(0,0,0,0.06);
+}
+.cd-timeline-content::before{
+	border-left-color: rgba(0,0,0,0.06);}
+.cd-timeline-block{
+	    margin: 0;
+}
+

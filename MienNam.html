@@ -9,16 +9,22 @@
     <meta name="author" content="" />
     <meta name="robots" content="follow, index" />
     <link rel="stylesheet" href="./css/bootstrap.min.css" />
-    <script src="./script/jquery.min.js"></script>
-    <script src="./script/bootstrap.min.js"></script>
+	<link href="./lib/vertical-timeline/css/reset.css" rel="stylesheet">
+	<link href="./lib/vertical-timeline/css/style.css" rel="stylesheet">
     <link rel="stylesheet" href="./css/ap-scroll-top.css" type="text/css" media="all" />
-    <script src="./script/ap-scroll-top.js"></script>
-    <link href="./css/TravelWeb.css" rel="stylesheet" />
     <link href="./lib/font-awesome-4.6.3/css/font-awesome.css" rel="stylesheet">
     <link href="./css/mobile.css" rel="stylesheet" />
     <link href="./css/w3.css" rel="stylesheet" />
     <link rel="stylesheet" href="./lib/Swiper-master/dist/js/css/swiper.min.css">
+	 <link href="./css/TravelWeb.css" rel="stylesheet" />
+	<script src="./script/jquery.min.js"></script>
+	 <script src="./lib/circle-text/circletype.min.js"></script>
+	 <script src="./lib/circle-text/plugins.js"></script>
+    <script src="./script/bootstrap.min.js"></script>
+	<script src="./script/ap-scroll-top.js"></script>
     <script src="./lib/Swiper-master/dist/js/swiper.min.js"></script>
+	<script src="./lib/vertical-timeline/js/modernizr.js"></script>
+	<script src="./lib/vertical-timeline/js/main.js"></script>
 </head>
 <body>
     <div class="myBody">
@@ -33,7 +39,7 @@
                         </div>
                     </div>
                     <div class="row WebHeader">
-                        <div class="col-md-12 WebName">
+                        <div class="col-md-12 WebName" id="test-circle">
                             Lều Lang
                         </div>
                         <div class="col-md-12 WebSologan">
@@ -98,11 +104,94 @@
                 <div id="blog" class="blog">
                     <div class="row">
                         <div class="col-md-12">
-                            <div class="timeline clearfix">
+						<section id="cd-timeline" class="cd-container">
+		<div class="cd-timeline-block">
+			<div class="cd-timeline-img cd-picture" >
+			<div class="dayPostBlog" id="daypost1">16/16/2016</div>
+			
+				
+			</div> <!-- cd-timeline-img -->
+
+			<div class="cd-timeline-content">
+				<h2>Title of section 1</h2>
+				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iusto, optio, dolorum provident rerum aut hic quasi placeat iure tempora laudantium ipsa ad debitis unde? Iste voluptatibus minus veritatis qui ut.</p>
+				<a href="#0" class="cd-read-more">Read more</a>
+				
+			</div> <!-- cd-timeline-content -->
+		</div> <!-- cd-timeline-block -->
+
+		<div class="cd-timeline-block">
+			<div class="cd-timeline-img cd-movie" id="daypost">
+				<div class="dayPostBlog" id="daypost1">16/16/2016</div>
+			</div> <!-- cd-timeline-img -->
+
+			<div class="cd-timeline-content">
+				<h2>Title of section 2</h2>
+				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iusto, optio, dolorum provident rerum aut hic quasi placeat iure tempora laudantium ipsa ad debitis unde?</p>
+				<a href="#0" class="cd-read-more">Read more</a>
+				
+			</div> <!-- cd-timeline-content -->
+		</div> <!-- cd-timeline-block -->
+
+		<div class="cd-timeline-block">
+			<div class="cd-timeline-img cd-picture" id="daypost">
+				<div class="dayPostBlog" id="daypost1">16/16/2016</div>
+			</div> <!-- cd-timeline-img -->
+
+			<div class="cd-timeline-content">
+				<h2>Title of section 3</h2>
+				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Excepturi, obcaecati, quisquam id molestias eaque asperiores voluptatibus cupiditate error assumenda delectus odit similique earum voluptatem doloremque dolorem ipsam quae rerum quis. Odit, itaque, deserunt corporis vero ipsum nisi eius odio natus ullam provident pariatur temporibus quia eos repellat consequuntur perferendis enim amet quae quasi repudiandae sed quod veniam dolore possimus rem voluptatum eveniet eligendi quis fugiat aliquam sunt similique aut adipisci.</p>
+				<a href="#0" class="cd-read-more">Read more</a>
+				
+			</div> <!-- cd-timeline-content -->
+		</div> <!-- cd-timeline-block -->
+
+		<div class="cd-timeline-block">
+			<div class="cd-timeline-img cd-location" id="daypost">
+				<div class="dayPostBlog" id="daypost1">16/16/2016</div>
+			</div> <!-- cd-timeline-img -->
+
+			<div class="cd-timeline-content">
+				<h2>Title of section 4</h2>
+				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iusto, optio, dolorum provident rerum aut hic quasi placeat iure tempora laudantium ipsa ad debitis unde? Iste voluptatibus minus veritatis qui ut.</p>
+				<a href="#0" class="cd-read-more">Read more</a>
+				
+			</div> <!-- cd-timeline-content -->
+		</div> <!-- cd-timeline-block -->
+
+		<div class="cd-timeline-block">
+			<div class="cd-timeline-img cd-location" id="daypost">
+				<div class="dayPostBlog" id="daypost1">16/16/2016</div>
+			</div> <!-- cd-timeline-img -->
+
+			<div class="cd-timeline-content">
+				<h2>Title of section 5</h2>
+				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iusto, optio, dolorum provident rerum.</p>
+				<a href="#0" class="cd-read-more">Read more</a>
+				
+			</div> <!-- cd-timeline-content -->
+		</div> <!-- cd-timeline-block -->
+
+		<div class="cd-timeline-block">
+			<div class="cd-timeline-img cd-movie" id="daypost">
+				<div class="dayPostBlog" id="daypost1">16/16/2016</div>
+			</div> <!-- cd-timeline-img -->
+
+			<div class="cd-timeline-content">
+				<h2><a class="FontWeight800" href="blog.html">Hồ Tràm - Hồ Cốc</a></h2>
+				<h5>Hành trình cho những ai thích yên tĩnh, ngắm sao, tắm biển (sạch)</h5>
+                <small>Trước mặt là biển, trên đỉnh đầu là bầu trời đầy sao, bên trái là bình minh.</small>
+				<p>
+                Mình là đứa khá thích biển, đặc biệt là những bãi biển đẹp và chưa bị khai thác. Mỗi lần đi cung đường ven biển thì kiểu gì cũng sẽ ngừng lại ở Hồ Tràm - Hồ Cốc chụp hình một cái rồi mới đi. Tự nhủ là sẽ làm một chuyến đi lang tới đây vào một ngày nào đó thế là mình lên google, tìm hiểu thêm thông tin từ các website phượt để có thể chuẩn bị tốt hơn cho chuyến đi. Và rồi cuối cùng thì vẫn là độc hành.
+                </p>
+			</div> <!-- cd-timeline-content -->
+		</div> <!-- cd-timeline-block -->
+	</section> <!-- cd-timeline -->
+                            <!-- <div class="timeline clearfix">
                                 <div class="timeline-centered clearfix">
 
                                     <div class="item pull-left">
-                                        <!-- item -->
+                                       
                                         <h3 class="timeline-centered-title"><a class="FontWeight800" href="blog.html">Hồ Tràm - Hồ Cốc</a></h3>
                                         <h4><b>2014</b></h4>
                                         <h5>Hành trình cho những ai thích yên tĩnh, ngắm sao, tắm biển (sạch)</h5>
@@ -111,10 +200,10 @@
                                             Mình là đứa khá thích biển, đặc biệt là những bãi biển đẹp và chưa bị khai thác. Mỗi lần đi cung đường ven biển thì kiểu gì cũng sẽ ngừng lại ở Hồ Tràm - Hồ Cốc chụp hình một cái rồi mới đi. Tự nhủ là sẽ làm một chuyến đi lang tới đây vào một ngày nào đó thế là mình lên google, tìm hiểu thêm thông tin từ các website phượt để có thể chuẩn bị tốt hơn cho chuyến đi. Và rồi cuối cùng thì vẫn là độc hành.
                                         </p>
                                         <div class="text-right"><a href="blog.html">Đi lang thôi</a></div>
-                                    </div><!-- /item -->
+                                    </div>
 
                                     <div class="item pull-right">
-                                        <!-- item -->
+                                      
                                         <h3 class="timeline-centered-title"><a class="FontWeight800" href="blog.html">Mũi dinh</a></h3>
                                         <h4><b>2013</b></h4>
                                         <small>Những cuối tuần đi lang</small>
@@ -126,17 +215,17 @@
                                             Một ngày nào đó sẽ trở lại.
                                         </p>
                                         <div class="text-right"><a href="blog.html">Đi lang thôi</a></div>
-                                    </div><!-- /item -->
+                                    </div>
 
                                     <div class="item pull-left">
-                                        <!-- item -->
+                                       
                                         <h3 class="timeline-centered-title"><a class="FontWeight800" href="blog.html">Lorem Ipsum Dolor</a></h3>
                                         <h4><b>2012</b></h4>
                                         <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore dolore magnm aliquam quaerat voluptatem.</p>
-                                    </div><!-- /item -->
+                                    </div>
 
                                     <div class="item pull-right">
-                                        <!-- item -->
+                                      
                                         <h3 class="timeline-centered-title"><a class="FontWeight800" href="blog.html">Lorem Ipsum Dolor</a></h3>
                                         <h4><b>2011</b></h4>
                                         <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt.</p>
@@ -153,10 +242,10 @@
 
                                         </div>
 
-                                    </div><!-- /item -->
+                                    </div>
 
                                 </div>
-                            </div>
+                            </div> -->
                         </div>
                         <div class="col-md-12">
                             <div class="text-center">
@@ -185,3 +274,9 @@
 </body>
 </html>
 <script src="./script/script.js"></script>
+  <script>
+           
+            $('#test-circle').circleType({radius: 384});
+           $('.dayPostBlog').circleType({radius: 29});
+           
+        </script>
